@@ -54,3 +54,26 @@ ul {
     padding-right: 40px;
     margin: auto;
 }
+
+.all-btn {
+    max-width: 190px;
+    width: 100%;
+    background-color: var(--Eucaplyptus);
+    padding-top: 13px;
+    padding-bottom: 16px;
+    color: var(--Dark-Purple);
+    text-align: center;
+    font-family: var(--Manrope);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    border: 2px solid var(--Eucaplyptus);
+    transition: .5s;
+}
+
+.all-btn:active {
+    background-color: transparent;
+    border: 2px solid var(--Eucaplyptus);
+    color: var(--Eucaplyptus);
+}
