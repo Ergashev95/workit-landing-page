@@ -1,1 +1,56 @@
 @import url(./fonts.css);
+
+/* CUSTOM PROPS */
+
+:root {
+    --Dark-Purple: #24053E;
+    --Eucaplyptus: #44FFA1;
+    --Davys-Grey: #584D62;
+    --Ghost-White: #FCF8FF;
+    --White: #fff;
+    --Manrope: "Manrope";
+    --Fraunces: "Fraunces";
+}
+
+/* GLOBAL STYLES */
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: var(--Manrope);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 1194px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+}
