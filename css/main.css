@@ -127,4 +127,33 @@ ul {
         opacity: .6;
     }
     /* SITE-HEADER */
+
+
+    /* SITE-HERO */
+    .site-hero__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .site-hero__title {
+        max-width: 635px;
+        width: 100%;
+        margin-top: 55px;
+        font-family: var(--Fraunces);
+        font-size: 80px;
+        font-weight: 600;
+        line-height: 80px;
+        text-align: center;
+        color: var(--White);
+    }
+    .site-hero__underline {
+       border-bottom: 3px solid var(--Eucaplyptus);
+    }
+    .site-hero__btn {
+        margin-top: 37px;
+        margin-bottom: 46px;
+    }
+   
+    /* SITE-HERO */
 /* SITE-HEADER-HERO */
