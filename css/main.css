@@ -277,3 +277,32 @@ ul {
  
     /* TEST */
 /* SITE-MAIN */
+
+
+/* SITE-FOOTER */
+.site-footer {
+  padding-top: 60px;
+  padding-bottom: 110px;
+}
+
+.site-footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+}
+
+.socials-list {
+    display: flex;
+    column-gap: 28px;
+}
+
+.socials-link {
+    display: block;
+    color: var(--Davys-Grey);
+    transition: .5s;
+}
+.socials-link:active {
+    color: var(--Dark-Purple);
+}
+/* SITE-FOOTER */
